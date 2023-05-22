@@ -48,11 +48,12 @@ Now input the other IP: "nmap -sn IP Address" and proceed by pressing the enter 
 
 <h2>Screenshot 3:</h2>
 <p align="center">
-Enter the command 'info' and press the 'Enter' key. Subsequently, input the command 'run' and press 'Enter' once more. Evaluate the displayed IP results and take note of the number of hosts identified.
+To reveal open ports, input the command "nmap -p- (IP Address 2)" and press the enter key
 </p>
-<img src="https://i.imgur.com/Y7LSo2z.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
-
-
+<img src="https://i.imgur.com/N9EPpEV.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
+<ul>
+  <li>Here we can see all of the open ports on this machine. Analyze these results and record the amount of ports open. </li>
+    </ul>
 <h2>Screenshot 4:</h2>
 <p align="center">
 Enter the command 'show hosts' and press the 'Enter' key. This will present host information, including IP details, for your examination.
