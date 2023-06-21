@@ -1,4 +1,4 @@
-# NMap-Scan
+# NMap-Scan (mysql brute)
 
 
 <h2>Description</h2>
@@ -56,6 +56,30 @@ To reveal open ports, input the command "nmap -p- (IP Address 2)" and press the 
     </ul>
 <h2>Screenshot 4:</h2>
 <p align="center">
-Enter the command 'show hosts' and press the 'Enter' key. This will present host information, including IP details, for your examination.
+Now enter in "(IP 2 -script=vulners.nse -sV". Note, this is dangerous!"
 </p>
-<img src="https://i.imgur.com/gVrEF7Z.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
+<img src="https://i.imgur.com/2DSQxuc.png" height="80%" width="80%" alt="Disk Sanitization Steps" />
+<ul>
+  <li>The results that appear are in dpeth exploits that should be analyzed and recorded for the exercise</li>
+</ul>
+
+<h2>Screenshot 5:</h2>
+<p align="center">
+To see a list of mysql directories, enter the command "ls | grep mysql" 
+</p>
+<img src="https://i.imgur.com/MvqPbpQ.png" height="80%" width="80%" 
+/>
+<ul>
+  <li> Analyze and record. Also, feel free to discover and try these out, however,for the exercise we are moving on. </li>
+</ul>
+
+<h2>Screenshot 6:</h2>
+<p align="center">
+Now enter "mysql -u root -p -h (IP 2)" and hit enter. 
+</p>
+<img src="https://i.imgur.com/qgT8nHP.png" height="80%" width="80%" 
+/>
+<ul>
+  <li> We have now successfully entered into the Mysql database. Analyze and record. </li>
+</ul>
+
